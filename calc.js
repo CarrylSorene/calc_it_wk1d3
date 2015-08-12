@@ -1,7 +1,7 @@
 var calc = prompt('Please type B to use the Basic calculator or A for Advanced');
   console.log('calc', calc);
 
-  if ( (calc === "B") || (calc === "b") ) {
+  if ((calc === "B") || (calc === "b")) {
     console.log('Okay')
     var firstNum = prompt('choose the first number');
     console.log('firstNum', firstNum);
@@ -9,7 +9,7 @@ var calc = prompt('Please type B to use the Basic calculator or A for Advanced')
     var op = prompt('choose an operation');
     console.log('op', op);
 
-    var secondNum= prompt('choose the second number');
+    var secondNum = prompt('choose the second number');
     console.log('secondNum', secondNum);
 
     firstNum = parseFloat(firstNum);
@@ -19,8 +19,8 @@ var calc = prompt('Please type B to use the Basic calculator or A for Advanced')
 
       if (op === "+") { 
         console.log(firstNum + secondNum);
-         var answer = (firstNum + secondNum);
-         alert("The answer is " + answer);
+        var answer = (firstNum + secondNum);
+        alert("The answer is " + answer);
       }
 
       else if (op === "-") {
@@ -56,17 +56,18 @@ var calc = prompt('Please type B to use the Basic calculator or A for Advanced')
         var secondNum = prompt('choose the second number');
         console.log('secondNum', secondNum);
 
+        console.log(Math.pow(firstNum, secondNum));
         var answer = Math.pow(firstNum, secondNum);
         alert("The answer is " + answer);
   }
 }
 
-    else if 
+    if 
       ((op === "S") || (op === "s")) {
-  
         var Num = prompt('choose the number');
         console.log('Num', Num);
 
+        console.log(Math.sqrt(Num));
         var answer = Math.sqrt(Num);
         alert("The answer is " + answer);
   }
