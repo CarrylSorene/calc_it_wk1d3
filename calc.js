@@ -49,7 +49,7 @@ var calc = prompt('Please type B to use the Basic calculator or A for Advanced')
   if ((calc === "A") || (calc === "a")) {
     var op = prompt('Please type P for power or S for square root');
     console.log('op', op);
-      if (op === "P" || "p")  {
+      if ((op === "P") || (op === "p"))  {
         var firstNum = prompt('choose the first number');
         console.log('firstNum', firstNum);
   
@@ -61,11 +61,12 @@ var calc = prompt('Please type B to use the Basic calculator or A for Advanced')
   }
 }
 
-//   else if 
-//     (op === "S" || "s") {
+    else if 
+      ((op === "S") || (op === "s")) {
   
-// var Num = prompt('choose the number');
-// console.log('Num', Num);
+        var Num = prompt('choose the number');
+        console.log('Num', Num);
 
-//   /*Math.sqrt(Num "/" Num);*/
-// }
+        var answer = Math.sqrt(Num);
+        alert("The answer is " + answer);
+  }
