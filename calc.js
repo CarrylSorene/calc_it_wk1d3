@@ -12,45 +12,64 @@ console.log('op', op);
 var secondNum= prompt('choose the second number');
   console.log('secondNum', secondNum);
 
-firstNum = parseFloat(firstNum);
-secondNum = parseFloat(secondNum);
+  firstNum = parseFloat(firstNum);
+  secondNum = parseFloat(secondNum);
 
 /*alert("Why is your console not open?");*/
 
-
-if (op === "+") { 
+  if (op === "+") { 
   console.log(firstNum + secondNum);
-}
-else if (op === "-") {
-  console.log(firstnNum - secondNum);
+  /*alert("firstNum + secondNum");*/
+  }
 
-}
-else if (op === "*") {
+  else if (op === "-") {
+  console.log(firstNum - secondNum);
+  /*alert("firstNum - secondNum")*/
+  }
+
+  else if (op === "*") {
   console.log(firstNum * secondNum);
-}
+  /*alert("firstNum * secondNum");*/
+  }
 
-else if (op === "/") {
+  else if (op === "/") {
   console.log(firstNum / secondNum);
-}
+  /*alert(firstNum / secondNum);*/
+  }
 
-if (firstNum === NaN && secondNum === NaN) {
+  if (firstNum === NaN && secondNum === NaN) {
   alert("That is not a number. Please try again");
-}
+  }
 }
 
- else if (calc === 'A') {
+  else if (calc === 'A') {
 
-var op = prompt('choose an operation');
+var op = prompt('Please type power or square root');
 console.log('op', op);
 
-var Num= prompt('choose the number');
-  console.log('Num', Num);
- }
+  if (op === "power")  {
 
- if (op === ) /*power*/ {
-
+  var firstNum = prompt('choose the first number');
+  console.log('firstNum', firstNum);
+  
+  var secondNum= prompt('choose the second number');
+  console.log('secondNum', secondNum);
 }
-  else if 
-    (op ===) /*sq root*/ {
 
+  if (secondNum === 2) {
+  Math.pow(firstNum * (firstNum * firstNum));
+}
+
+  else if (secondNum === 3) {
+    Math.pow(firstNum * (firstNum * firstNum * firstNum))
   }
+}
+
+  else if 
+    (op === "square root") {
+  
+var Num= prompt('choose the number');
+console.log('Num', Num);
+
+  Math.sqrt(Num / Num);
+}
